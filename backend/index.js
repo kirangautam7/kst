@@ -13,7 +13,7 @@ app.use(cors());
 // connect mongodb to server
 
 mongoose.connect(
-  "mongodb+srv://kst:984567@cluster0.sl0lj.mongodb.net/ecommerce"
+  "Mongodb_Link"
 );
 
 app.get("/", (req, res) => {
