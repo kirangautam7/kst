@@ -1,0 +1,36 @@
+.app-ul {
+  display: inline-flex;
+  gap: 50px;
+  margin-left: 420px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  color: black;
+  font-weight: 600;
+}
+
+.nav-home {
+  background: rgb(211, 228, 3);
+  background: linear-gradient(
+    180deg,
+    rgba(211, 228, 3, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+@media (max-width: 800px) {
+  .app-ul {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .app-ul {
+    margin-left: 6px;
+    text-align: center;
+    gap: 17px;
+    font-size: 14px;
+  }
+}

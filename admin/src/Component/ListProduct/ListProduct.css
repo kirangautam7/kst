@@ -1,0 +1,13 @@
+.listproduct-allproducts {
+  display: flex;
+  flex-direction: column;
+}
+
+.listproduct-allproducts img {
+  width: 100px;
+}
+
+.listproduct-format-main {
+  display: flex;
+  gap: 50px;
+}

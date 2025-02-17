@@ -1,0 +1,17 @@
+.product-list {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.category-topic {
+  text-transform: uppercase;
+}
+
+.product-col {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  gap: 35px;
+  margin-left: 15px;
+}

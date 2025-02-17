@@ -1,0 +1,28 @@
+.hr-topic {
+  width: 80px;
+  height: 3px;
+  background: #0c256b;
+  border: none;
+  /* margin: 5px auto; */
+  border-radius: 10px;
+  margin-left: 1px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+body {
+  margin: 3px;
+}
+
+@media (max-width: 800px) {
+  .product-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-col {
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+  }
+}
